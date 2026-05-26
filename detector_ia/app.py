@@ -11,7 +11,7 @@ import numpy as np
 # ============================================
 
 st.set_page_config(
-    page_title="Detector de Voz IA",
+    page_title="Plataforma de Análisis de Voz",
     page_icon="🎙️",
     layout="wide"
 )
@@ -87,7 +87,7 @@ p {
 st.title("🎙️ Detector de Voz IA")
 
 st.markdown("""
-### Analiza características acústicas de señales de voz y estudia posibles diferencias entre voz humana y voz generada mediante inteligencia artificial.
+### Aplicación interactiva para el análisis temporal, espectral y acústico de señales de voz mediante técnicas de procesamiento digital.
 """)
 st.markdown("""
 ## Sube una voz y analiza sus características acústicas
