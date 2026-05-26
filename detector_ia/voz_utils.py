@@ -1,4 +1,9 @@
 import scipy.signal
+import librosa
+import librosa.display
+import numpy as np
+import matplotlib.pyplot as plt
+
 
 def analizar_espectrogramas(y, fs, hop_length=512, n_fft=2048):
     
