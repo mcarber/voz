@@ -1,4 +1,3 @@
-from vozyaudio import *
 import scipy.signal
 
 def analizar_espectrogramas(y, fs, hop_length=512, n_fft=2048):
