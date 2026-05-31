@@ -84,7 +84,7 @@ p {
 # HEADER
 # ============================================
 
-st.title("🎙️ Detector de Voz IA")
+st.title("Plataforma de Análisis de Voz")
 
 st.markdown("""
 ### Aplicación interactiva para el análisis temporal, espectral y acústico de señales de voz mediante técnicas de procesamiento digital.
@@ -140,7 +140,7 @@ audio = st.file_uploader(
 
 if audio is not None:
 
-    st.success("✅ Audio cargado correctamente")
+    st.success("Audio cargado correctamente")
 
     # ============================================
     # REPRODUCTOR
